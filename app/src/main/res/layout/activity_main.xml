@@ -15,18 +15,18 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="0"
-        android:id="@+id/text"
+        android:id="@+id/output_text"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textSize="22pt"
-        android:maxLength="12"
+        android:maxLength="8"
         android:maxLines="1"
         android:focusableInTouchMode="false"
         android:textColor="@android:color/white"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serf"
         android:textAlignment="textEnd"
         />
 
@@ -38,11 +38,71 @@
         android:id="@+id/grid_layout"
         android:horizontalSpacing="0dp"
         android:verticalSpacing="0dp"
-        android:layout_below="@+id/text"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/output_text">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="+/-"
+            android:id="@+id/btn_togglesign"
+            android:layout_row="12"
+            android:layout_column="9"
+            android:textSize="16pt"
+            android:textColor="@android:color/black"
+            android:background="@drawable/buttonshape_equal"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="CE"
+            android:id="@+id/btn_ce"
+            android:layout_row="12"
+            android:layout_column="10"
+            android:textSize="16pt"
+            android:textColor="@android:color/black"
+            android:background="@drawable/buttonshape_equal"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="c"
+            android:id="@+id/btn_clear"
+            android:layout_row="12"
+            android:layout_column="11"
+            android:textSize="16pt"
+            android:textColor="@android:color/black"
+            android:background="@drawable/buttonshape_equal"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="÷"
+            android:id="@+id/btn_div"
+            android:layout_row="12"
+            android:layout_column="12"
+            android:textSize="16pt"
+            android:textColor="@android:color/black"
+            android:background="@drawable/buttonshape_operator"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5" />
 
         <Button
             android:layout_width="80dp"
@@ -94,8 +154,8 @@
         <Button
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="÷"
-            android:id="@+id/btn_div"
+            android:text="X"
+            android:id="@+id/btn_multi"
             android:layout_row="13"
             android:layout_column="12"
             android:textSize="16pt"
@@ -104,7 +164,7 @@
             android:shadowColor="#A8A8A8"
             android:shadowDx="0"
             android:shadowDy="0"
-            android:shadowRadius="5" />
+            android:shadowRadius="5"  />
 
         <Button
             android:layout_width="80dp"
@@ -154,8 +214,8 @@
         <Button
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="X"
-            android:id="@+id/btn_multi"
+            android:text="-"
+            android:id="@+id/btn_sub"
             android:layout_row="14"
             android:layout_column="12"
             android:textSize="16pt"
@@ -164,7 +224,7 @@
             android:shadowColor="#A8A8A8"
             android:shadowDx="0"
             android:shadowDy="0"
-            android:shadowRadius="5"  />
+            android:shadowRadius="5" />
 
         <Button
             android:layout_width="80dp"
@@ -214,8 +274,8 @@
         <Button
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="-"
-            android:id="@+id/btn_sub"
+            android:text="+"
+            android:id="@+id/btn_add"
             android:layout_row="15"
             android:layout_column="12"
             android:textSize="16pt"
@@ -224,7 +284,7 @@
             android:shadowColor="#A8A8A8"
             android:shadowDx="0"
             android:shadowDy="0"
-            android:shadowRadius="5" />
+            android:shadowRadius="5"  />
 
         <Button
             android:layout_width="80dp"
@@ -284,7 +344,8 @@
             android:shadowColor="#A8A8A8"
             android:shadowDx="0"
             android:shadowDy="0"
-            android:shadowRadius="5"  />
+            android:shadowRadius="5" />
+
 
 
     </GridLayout>
