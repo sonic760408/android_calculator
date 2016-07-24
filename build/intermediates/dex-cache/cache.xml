@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_848ee440dbb324edb53ba0a55b99187bdd81b620/classes.dex" />
+    </item>
+    <item
+        jar="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="21c68a4c71170b7a72275d57d576a2989f3b4faf">
+        <dex dex="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5997851388775949509a49645c9f116646a9212e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/hsiehkaiyang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_010b40fae17d994d2f1149aaabf121ad23b346ea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_99fc4fb05c178b59b68d8a85aedf8a1443a06983/classes.dex" />
+    </item>
+    <item
+        jar="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3856afd280d40abddb5d43bef5eb11a57ddc4350">
+        <dex dex="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_dd3d007717806c93767293b11ad041765c5e4b6f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_29daa4ee8b57fa85ead4a2f4532fb76abb7b695e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_51e1b7e9bf8affc47e0c971de8b500644dffee67/classes.dex" />
+    </item>
+    <item
+        jar="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/hsiehkaiyang/Desktop/Android/Ch05/Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_25509cedf9cbf7adc7755d1770e664e39ccfe3b0/classes.dex" />
+    </item>
+
+</items>
